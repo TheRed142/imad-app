@@ -7,7 +7,7 @@ var config = {
     database: 'likh17is',
     host:'db.imad.hasura-app.io',
     port: '5432',
-    password: process.env.DB_FACEBOOK
+    password: process.env.db-likh17is-44683
 };
 var app = express();
 app.use(morgan('combined'));
